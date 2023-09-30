@@ -2,6 +2,6 @@
 
 # Вёрстка
 
-https://github.com/den10004/luxuryCheramics.git
+https://github.com/den10004/luxuryсheramics.git
 
 ## [Деплой на Vercel](https://luxury-cheramics.vercel.app/).
