@@ -1,0 +1,201 @@
+.header {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 23px 0 0px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 10px 0 0px 0;
+  }
+}
+
+.header__block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__block {
+    align-items: center;
+  }
+}
+
+.block__logo {
+  width: 175px;
+  display: flex;
+  margin-right: 45px;
+}
+
+@media screen and (max-width: 1440px) {
+  .block__logo {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .block__logo {
+    width: 60px;
+  }
+  .block__logo > span {
+    display: none;
+  }
+}
+
+.block__logo > a {
+  margin-right: 23px;
+}
+
+@media screen and (max-width: 550px) {
+  .block__logo > a > svg {
+    width: 100%;
+  }
+}
+
+.block__logo > span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1e1e1f;
+  margin-top: 2px;
+}
+
+.block__main {
+  display: flex;
+  color: #333333;
+  width: calc(100% - 484px);
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .block__main {
+    width: calc(100% - 414px);
+  }
+}
+
+.main-office {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.main__email {
+  font-size: 14px;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+  line-height: 18px;
+  padding-left: 52px;
+}
+
+@media screen and (max-width: 1200px) {
+  .main__email {
+    padding-left: 0px;
+    margin: 10px 0 10px 0;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  #call-button {
+    font-size: 16px;
+    width: 134px;
+    height: 40px;
+  }
+}
+
+.main__email > a {
+  color: #776053;
+}
+
+.styleTelBlock {
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.styleTelBlock > a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.styleTelBlock > span {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.main__tel {
+  font-size: 14px;
+  font-weight: 700;
+  padding-right: 45px;
+}
+
+@media screen and (max-width: 1440px) {
+  .main__tel {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main__tel {
+    margin: 10px 0 10px 0;
+  }
+}
+
+.block__call {
+  display: flex;
+  align-items: center;
+}
+
+#call-button {
+  border: 1px solid #3c2c26;
+  font-family: "Crimson Text", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #000000;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  width: 194px;
+  height: 49px;
+}
+
+@media screen and (max-width: 550px) {
+  #call-button {
+    font-size: 16px;
+    width: 154px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #call-button {
+    margin-right: 30px;
+  }
+}
+
+.burger-button {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .burger-button {
+    display: block;
+  }
+  .block__main {
+    display: none;
+  }
+  .block__call > button {
+    margin-bottom: 0;
+  }
+}

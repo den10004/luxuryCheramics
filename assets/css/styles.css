@@ -1,0 +1,95 @@
+@import "./header.css";
+@import "./primary.css";
+@import "./services.css";
+@import "./galery.css";
+@import "./modals.css";
+@import "./normalize.css";
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-image: url(../images/background.png);
+  width: 100%;
+  background-repeat: repeat-x;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.wrapper {
+  max-width: 1504px;
+  margin: 0 auto;
+  padding: 0 10px 0 10px;
+}
+
+.line {
+  position: absolute;
+  top: 1440px;
+  z-index: -1;
+}
+
+.line > svg {
+  width: 100%;
+}
+
+@media screen and (max-width: 1517px) {
+  .line {
+    top: 1840px;
+  }
+}
+
+@media screen and (max-width: 753px) {
+  .line {
+    top: 2800px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .line {
+    top: 2600px;
+  }
+}
+
+.section-height {
+  height: 300px;
+}
+
+@media screen and (max-width: 1280px) {
+  .section-height {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .section-height {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-height {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section-height {
+    height: 20px;
+  }
+}

@@ -1,0 +1,268 @@
+.galery {
+  display: flex;
+  margin-top: 185px;
+  height: auto;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1440px) {
+  .galery {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .galery {
+    margin-top: 100px;
+    flex-direction: column;
+  }
+}
+
+.galery__headline {
+  position: relative;
+}
+
+.galery__headline > h2 {
+  margin-top: 150px;
+  width: 480px;
+  font-family: "Crimson Text", serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(60, 44, 38, 1);
+}
+
+@media screen and (max-width: 1500px) {
+  .galery__headline > h2 {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .galery__headline > h2 {
+    font-size: 35px;
+    line-height: 35px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .galery__headline > h2 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 0px;
+  }
+}
+
+.swiper-container {
+  width: 85%;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .swiper-container {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .swiper-container {
+    position: static;
+    margin-top: 30px;
+  }
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 433px;
+  height: 624px;
+  opacity: 0;
+  box-shadow: 30px 20px 40px 0px rgba(119, 96, 83, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-slide {
+    opacity: 1;
+  }
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  margin-left: -90px;
+  width: 433px;
+  height: 624px;
+}
+
+.swiper-slide-active ~ .swiper-slide {
+  opacity: 1;
+}
+
+.slideCard {
+  width: 433px;
+  height: 624px;
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(
+    50% 8%,
+    60% 0,
+    100% 0,
+    100% 100%,
+    60% 100%,
+    50% 93%,
+    40% 100%,
+    0 100%,
+    0 0,
+    40% 0
+  );
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+  .slideCard {
+    width: 333px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slideCard {
+    width: 333px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .slideCard {
+    width: 200px;
+  }
+}
+
+.slideCard > img {
+  width: 433px;
+  height: 624px;
+  box-shadow: 30px 20px 40px 0px rgba(119, 96, 83, 0.25);
+}
+
+@media screen and (max-width: 1280px) {
+  .slideCard > img {
+    width: 333px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slideCard > img {
+    width: 333px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .slideCard > img {
+    width: 200px;
+  }
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: -5px !important;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.swiper-pagination-current {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-size: 56px !important;
+  color: rgba(60, 44, 38, 1) !important;
+}
+
+.swiper-pagination-total {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-size: 20px !important;
+  color: rgba(119, 96, 83, 1) !important;
+}
+
+.paginationsBlock {
+  width: 230px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: -130px;
+  right: 0;
+}
+
+@media screen and (max-width: 1550px) {
+  .paginationsBlock {
+    left: 150px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .paginationsBlock {
+    left: 300px;
+    width: 150px;
+  }
+  .btn-slider > svg {
+    width: 30px;
+    height: 30px;
+  }
+  .swiper-pagination-current {
+    font-size: 36px !important;
+  }
+
+  .swiper-pagination-total {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .paginationsBlock {
+    left: 25%;
+    bottom: -100px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .paginationsBlock {
+    left: 23%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .paginationsBlock {
+    top: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .paginationsBlock {
+    top: 450px;
+  }
+}
+
+@media screen and (max-width: 337px) {
+  .paginationsBlock {
+    top: 490px;
+  }
+}

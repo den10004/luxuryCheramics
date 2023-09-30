@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>b2b</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/crimson-text-2"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__block">
+          <div class="block__logo">
+            <a href="#">
+              <svg
+                width="55"
+                height="61"
+                viewBox="0 0 55 61"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="55" height="61" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_2273"
+                      transform="matrix(0.0117988 0 0 0.0106383 -0.00145068 0)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1_2273"
+                    width="85"
+                    height="94"
+                    xlink:href="data:image/png;base64,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"
+                  />
+                </defs>
+              </svg>
+            </a>
+            <span>Завод архитектурной керамики</span>
+          </div>
+          <ul class="block__main">
+            <li class="main-office">
+              Центральный офис:<br />
+              МО, г. Балашиха, мкр. Саввино,<br />
+              ул. Промышленная, владение 37а, стр.4
+            </li>
+            <li class="main__email">
+              <a href="mailto:info@lceramics.ru"> info@lceramics.ru</a><br />
+              <span>Направьте проект на расчет</span>
+            </li>
+            <li class="main__tel styleTelBlock">
+              <a href="tel:+79299013322">+7 (929) 901-33-22</a><br />
+              <span>телефон для заказчиков</span>
+            </li>
+            <li class="main__telcity styleTelBlock">
+              <a href="tel:+74959816404">+7 (495) 981-64-04</a><br />
+              <span>городской телефон</span>
+            </li>
+          </ul>
+          <div class="block__call">
+            <button id="call-button">Заказать звонок</button>
+            <?xml version="1.0" encoding="utf-8"?>
+            <button class="burger-button">
+              <svg
+                width="40px"
+                height="40px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 18L20 18"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M4 12L20 12"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M4 6L20 6"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!--бургер-меню-->
+      <div class="burder modal-hidden">
+        <div class="burder__wrapper">
+          <button class="burger-close">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg
+              width="40px"
+              height="40px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 8L8 16M8.00001 8L16 16"
+                stroke="#000000"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <ul class="burger__main">
+            <li class="main-office">
+              Центральный офис:<br />
+              МО, г. Балашиха, мкр. Саввино,<br />
+              ул. Промышленная, владение 37а, стр.4
+            </li>
+            <li class="main__email">
+              <a href="mailto:info@lceramics.ru"> info@lceramics.ru</a><br />
+              <span>Направьте проект на расчет</span>
+            </li>
+            <li class="main__tel styleTelBlock">
+              <a href="tel:+79299013322">+7 (929) 901-33-22</a><br />
+              <span>телефон для заказчиков</span>
+            </li>
+            <li class="main__telcity styleTelBlock">
+              <a href="tel:+74959816404">+7 (495) 981-64-04</a><br />
+              <span>городской телефон</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--бургер-меню-->
+
+      <!--модальное окно заказать звонок-->
+
+      <div class="order modal-hidden">
+        <div class="order-wraper">
+          <button class="order-close">
+            <svg
+              width="101"
+              height="100"
+              viewBox="0 0 101 100"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50.5" cy="50" r="25" fill="#776053" />
+              <path
+                d="M58.6594 41.5147L51.5 48.6742L44.3405 41.5147C43.9744 41.1486 43.3808 41.1486 43.0147 41.5147C42.6486 41.8808 42.6486 42.4744 43.0147 42.8405L50.1742 50L43.0147 57.1595C42.6486 57.5256 42.6486 58.1192 43.0147 58.4853C43.3808 58.8514 43.9744 58.8514 44.3405 58.4853L51.5 51.3258L58.6594 58.4853C59.0256 58.8514 59.6191 58.8514 59.9853 58.4853C60.3514 58.1192 60.3514 57.5256 59.9853 57.1595L52.8258 50L59.9853 42.8405C60.3514 42.4744 60.3514 41.8808 59.9853 41.5147C59.6191 41.1486 59.0256 41.1486 58.6594 41.5147Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+          <h2>Оставьте свои данные и мы вам перезвоним</h2>
+          <form class="call-form">
+            <input type="text" placeholder="Ваше имя" />
+            <input type="tel" placeholder="Ваш телефон*" />
+            <button type="submit">Получить предложение</button>
+
+            <div class="form-check">
+              <input
+                type="checkbox"
+                class="custom-checkbox"
+                id="accept"
+                name="accept"
+                value="true"
+              />
+              <label for="accept"
+                ><a href="#"
+                  >Подтверждаю свои данные и даю своё согласие на их
+                  обработку</a
+                ></label
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--модальное окно заказать звонок-->
+
+    <section class="primary-wrapper">
+      <div class="primary">
+        <div class="wrapper">
+          <div class="primary__text">
+            <span>Индивидуальное изготовление</span>
+            <h1>архитектурной керамики</h1>
+            <span
+              >для облицовки фасадов, декорирования экстерьеров и
+              интерьеров</span
+            >
+            <h3>400* циклов долговечность фасадной керамики Luxury Ceramics</h3>
+
+            <div class="text__block">
+              <a href="#">
+                <button>Смотреть каталог</button>
+              </a>
+
+              <div class="block__confirmation">
+                <svg
+                  width="33"
+                  height="33"
+                  viewBox="0 0 33 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.875 22H19.9375C20.3171 22 20.625 22.3079 20.625 22.6875C20.625 23.0671 20.3171 23.375 19.9375 23.375H14.4375C14.0579 23.375 13.75 23.0671 13.75 22.6875C13.75 22.3079 14.0579 22 14.4375 22H16.5V15.125H14.4375C14.0579 15.125 13.75 14.8171 13.75 14.4375C13.75 14.0579 14.0579 13.75 14.4375 13.75H17.1875C17.5671 13.75 17.875 14.0579 17.875 14.4375V22ZM16.5 30.25C8.90608 30.25 2.75 24.0939 2.75 16.5C2.75 8.90608 8.90608 2.75 16.5 2.75C24.0939 2.75 30.25 8.90608 30.25 16.5C30.25 24.0939 24.0939 30.25 16.5 30.25ZM16.5 28.875C23.3346 28.875 28.875 23.3346 28.875 16.5C28.875 9.66548 23.3346 4.125 16.5 4.125C9.66548 4.125 4.125 9.66548 4.125 16.5C4.125 23.3346 9.66548 28.875 16.5 28.875ZM15.8125 9.625H17.1875C17.5671 9.625 17.875 9.93281 17.875 10.3125V11.6875C17.875 12.0672 17.5671 12.375 17.1875 12.375H15.8125C15.4329 12.375 15.125 12.0672 15.125 11.6875V10.3125C15.125 9.93281 15.4329 9.625 15.8125 9.625Z"
+                    fill="#3C2C26"
+                  />
+                </svg>
+                <p>
+                  Подтверждено <a href="#">испытаниями  на морозостойкость</a>
+                  <br />от ГУП “НИИМосстрой”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="primary__info">
+          <div class="info__block">
+            <svg
+              width="39"
+              height="39"
+              viewBox="0 0 33 33"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.875 22H19.9375C20.3171 22 20.625 22.3079 20.625 22.6875C20.625 23.0671 20.3171 23.375 19.9375 23.375H14.4375C14.0579 23.375 13.75 23.0671 13.75 22.6875C13.75 22.3079 14.0579 22 14.4375 22H16.5V15.125H14.4375C14.0579 15.125 13.75 14.8171 13.75 14.4375C13.75 14.0579 14.0579 13.75 14.4375 13.75H17.1875C17.5671 13.75 17.875 14.0579 17.875 14.4375V22ZM16.5 30.25C8.90608 30.25 2.75 24.0939 2.75 16.5C2.75 8.90608 8.90608 2.75 16.5 2.75C24.0939 2.75 30.25 8.90608 30.25 16.5C30.25 24.0939 24.0939 30.25 16.5 30.25ZM16.5 28.875C23.3346 28.875 28.875 23.3346 28.875 16.5C28.875 9.66548 23.3346 4.125 16.5 4.125C9.66548 4.125 4.125 9.66548 4.125 16.5C4.125 23.3346 9.66548 28.875 16.5 28.875ZM15.8125 9.625H17.1875C17.5671 9.625 17.875 9.93281 17.875 10.3125V11.6875C17.875 12.0672 17.5671 12.375 17.1875 12.375H15.8125C15.4329 12.375 15.125 12.0672 15.125 11.6875V10.3125C15.125 9.93281 15.4329 9.625 15.8125 9.625Z"
+                fill="#3C2C26"
+              />
+            </svg>
+
+            <p>
+              Объект выполнен <br />
+              в 2015 году
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrapper">
+      <section class="services">
+        <div class="card">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="9.9 29.9 352.2 490.9"
+          >
+            <path
+              d="M10 30H146C168.091 30 186 49.2733 186 73.0481V477.701C186 501.476 168.091 520.749 146 520.749H10V30Z M362 30H226C203.909 30 186 49.2733 186 73.0481V477.701C186 501.476 203.909 520.749 226 520.749H362V30Z"
+              fill="white"
+            />
+          </svg>
+          <div class="card-content">
+            <img src="./assets/images/hand.png" alt="card-image" />
+            <p>
+              Изготовление эксклюзивных деталей вручную, и стандартных позиций
+              на станках
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="9.9 29.9 352.2 490.9"
+          >
+            <path
+              d="M10 30H146C168.091 30 186 49.2733 186 73.0481V477.701C186 501.476 168.091 520.749 146 520.749H10V30Z M362 30H226C203.909 30 186 49.2733 186 73.0481V477.701C186 501.476 203.909 520.749 226 520.749H362V30Z"
+              fill="white"
+            />
+          </svg>
+          <div class="card-content">
+            <img src="./assets/images/hand.png" alt="card-image" />
+            <p>
+              Разработка деталировочных чертежей облицовки фасада из керамики
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="9.9 29.9 352.2 490.9"
+          >
+            <path
+              d="M10 30H146C168.091 30 186 49.2733 186 73.0481V477.701C186 501.476 168.091 520.749 146 520.749H10V30Z M362 30H226C203.909 30 186 49.2733 186 73.0481V477.701C186 501.476 203.909 520.749 226 520.749H362V30Z"
+              fill="white"
+            />
+          </svg>
+          <div class="card-content">
+            <img src="./assets/images/hand.png" alt="card-image" />
+            <p>Гибкая ценовая политика</p>
+          </div>
+        </div>
+        <div class="card">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="9.9 29.9 352.2 490.9"
+          >
+            <path
+              d="M10 30H146C168.091 30 186 49.2733 186 73.0481V477.701C186 501.476 168.091 520.749 146 520.749H10V30Z M362 30H226C203.909 30 186 49.2733 186 73.0481V477.701C186 501.476 203.909 520.749 226 520.749H362V30Z"
+              fill="white"
+            />
+          </svg>
+          <div class="card-content">
+            <img src="./assets/images/hand.png" alt="card-image" />
+            <p>
+              Монтаж архитектурной керамики на объекте с неукоснительным
+              соблюдением технологий
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="line">
+      <svg
+        width="1920"
+        height="310"
+        viewBox="0 0 1920 310"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1969.42 0.387675C1930.75 56.6602 1615.15 439.671 1036.04 262.14C456.936 84.6095 -63.0001 290.732 -63.0001 290.732"
+          stroke="#CCCCCC"
+        />
+      </svg>
+    </div>
+
+    <div class="wrapper galery-padding">
+      <section class="galery">
+        <div class="galery__headline">
+          <h2>
+            Галерея объектов с применением архитектурной керамики Luxury
+            Ceramics
+          </h2>
+
+          <div class="paginationsBlock">
+            <button class="swiper-button-prevv btn-slider">
+              <svg
+                width="42"
+                height="43"
+                viewBox="0 0 42 43"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_2317)">
+                  <path
+                    d="M0.384483 22.7177L20.072 42.4052C20.319 42.6468 20.6514 42.7812 20.997 42.7793C21.3425 42.7773 21.6733 42.6392 21.9177 42.3949C22.162 42.1505 22.3002 41.8197 22.3021 41.4741C22.304 41.1286 22.1696 40.7962 21.928 40.5492L4.48112 23.1022H40.6875C41.0356 23.1022 41.3694 22.9639 41.6156 22.7178C41.8617 22.4716 42 22.1378 42 21.7897C42 21.4416 41.8617 21.1077 41.6156 20.8616C41.3694 20.6155 41.0356 20.4772 40.6875 20.4772H4.48112L21.928 3.0302C22.0521 2.90883 22.1509 2.76405 22.2187 2.60423C22.2865 2.44441 22.3219 2.27273 22.3229 2.09914C22.3238 1.92555 22.2904 1.75349 22.2244 1.59292C22.1584 1.43235 22.0612 1.28647 21.9385 1.16372C21.8157 1.04097 21.6698 0.943788 21.5093 0.877804C21.3487 0.811821 21.1766 0.778346 21.003 0.779317C20.8294 0.780289 20.6578 0.815687 20.498 0.883463C20.3381 0.95124 20.1934 1.05005 20.072 1.17416L0.384483 20.8617C0.138374 21.1078 0.000114441 21.4416 0.000114441 21.7897C0.000114441 22.1378 0.138374 22.4716 0.384483 22.7177Z"
+                    fill="#3C2C26"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_2317">
+                    <rect
+                      width="42"
+                      height="42"
+                      fill="white"
+                      transform="matrix(-1 0 0 1 42 0.789795)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+            <div class="swiper-pagination"></div>
+            <button class="swiper-button-nextt btn-slider">
+              <svg
+                width="42"
+                height="43"
+                viewBox="0 0 42 43"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_2315)">
+                  <path
+                    d="M41.6155 22.7177L21.928 42.4052C21.681 42.6468 21.3486 42.7812 21.003 42.7793C20.6575 42.7773 20.3267 42.6392 20.0823 42.3949C19.838 42.1505 19.6998 41.8197 19.6979 41.4741C19.696 41.1286 19.8304 40.7962 20.072 40.5492L37.5189 23.1022H1.3125C0.964403 23.1022 0.630564 22.9639 0.384422 22.7178C0.138281 22.4716 0 22.1378 0 21.7897C0 21.4416 0.138281 21.1077 0.384422 20.8616C0.630564 20.6155 0.964403 20.4772 1.3125 20.4772H37.5189L20.072 3.0302C19.9479 2.90883 19.8491 2.76405 19.7813 2.60423C19.7135 2.44441 19.6781 2.27273 19.6771 2.09914C19.6762 1.92555 19.7096 1.75349 19.7756 1.59292C19.8416 1.43235 19.9388 1.28647 20.0615 1.16372C20.1843 1.04097 20.3302 0.943788 20.4907 0.877804C20.6513 0.811821 20.8234 0.778346 20.997 0.779317C21.1706 0.780289 21.3422 0.815687 21.502 0.883463C21.6619 0.95124 21.8066 1.05005 21.928 1.17416L41.6155 20.8617C41.8616 21.1078 41.9999 21.4416 41.9999 21.7897C41.9999 22.1378 41.8616 22.4716 41.6155 22.7177Z"
+                    fill="#3C2C26"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_2315">
+                    <rect
+                      width="42"
+                      height="42"
+                      fill="white"
+                      transform="translate(0 0.789795)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slideCard">
+              <img src="./assets/images/slider.png" alt="slider-image" />
+            </div>
+            <div class="swiper-slide slideCard">
+              <img src="./assets/images/slider.png" alt="slider-image" />
+            </div>
+            <div class="swiper-slide slideCard">
+              <img src="./assets/images/slider.png" alt="slider-image" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="section-height"></section>
+  </body>
+  <script src="./assets/js/slider.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/index.js"></script>
+</html>

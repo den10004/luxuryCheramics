@@ -1,0 +1,190 @@
+.burder {
+  background-color: bisque;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 320px;
+  height: auto;
+  padding: 20px 0 10px 10px;
+  box-sizing: border-box;
+}
+
+.modal-hidden {
+  display: none;
+}
+
+.burger__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.burder__wrapper {
+  position: relative;
+}
+
+.burger-close {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+}
+
+.order {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  max-width: 520px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 550px) {
+  .order {
+    width: 320px;
+    top: 20px;
+  }
+}
+
+.order-wraper {
+  text-align: center;
+  max-width: 464px;
+  border-bottom-left-radius: 100px;
+  background: rgba(246, 239, 222, 1);
+  padding: 30px 50px 30px 50px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@media screen and (max-width: 550px) {
+  .order-wraper {
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+  }
+}
+
+.order-wraper > h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+}
+
+@media screen and (max-width: 425px) {
+  .order-wraper > h2 {
+    font-size: 20px;
+    line-height: 25px;
+    width: 85%;
+  }
+}
+
+.call-form {
+  margin-top: 20px;
+  text-align: start;
+}
+
+.call-form > input {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(133, 133, 133, 1);
+  width: 100%;
+  height: 53px;
+  border: 1px solid rgba(119, 96, 83, 1);
+  padding-left: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.call-form > button {
+  width: 254px;
+  height: 49px;
+  padding: 18px, 32px, 18px, 32px;
+  border-radius: 50px;
+  background-color: rgba(119, 96, 83, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.form-check {
+  margin-top: 20px;
+  width: 80%;
+  padding-left: 10px;
+}
+.form-check > label > a {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(119, 96, 83, 1);
+}
+
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.custom-checkbox + label {
+  display: inline-flex;
+}
+.custom-checkbox + label::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 0.25em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.custom-checkbox:checked + label::before {
+  background-image: url('data:image/svg+xml,%3Csvg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M11.4375 5.72936C11.6332 5.51077 11.6146 5.17491 11.396 4.9792C11.1774 4.78349 10.8416 4.80205 10.6459 5.02064L8.25937 7.68623C7.77579 8.22636 7.45013 8.58819 7.1717 8.82222C6.90646 9.04515 6.75067 9.09375 6.61458 9.09375C6.47849 9.09375 6.3227 9.04515 6.05747 8.82222C5.77903 8.58819 5.45337 8.22636 4.96979 7.68622L4.35413 6.99856C4.15842 6.77997 3.82257 6.76142 3.60397 6.95712C3.38538 7.15283 3.36683 7.48869 3.56254 7.70728L4.20451 8.42434C4.6549 8.92743 5.03057 9.34706 5.37383 9.63557C5.73695 9.94078 6.12861 10.1562 6.61458 10.1562C7.10055 10.1562 7.49222 9.94078 7.85533 9.63558C8.19859 9.34706 8.57426 8.92744 9.02464 8.42435L11.4375 5.72936Z" fill="black"/%3E%3C/svg%3E%0A');
+}
+
+.order-close {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+@media screen and (max-width: 550px) {
+  .order-close {
+    top: -30px;
+    right: -30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .order-close {
+    top: -30px;
+    right: -20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .order-close > svg {
+    width: 70px;
+    height: 70px;
+  }
+}
