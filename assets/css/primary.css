@@ -193,8 +193,20 @@
   color: #333333;
 }
 
+@media screen and (max-width: 1280px) {
+  .block__confirmation > p {
+    color: #ffffff;
+  }
+}
+
 .block__confirmation > svg {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+  .block__confirmation > svg > path {
+    fill: #ffffff;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -206,6 +218,12 @@
 .block__confirmation > p > a {
   color: #776053;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1280px) {
+  .block__confirmation > p > a {
+    color: #ffffff;
+  }
 }
 
 .primary__info {
