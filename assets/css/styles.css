@@ -5,6 +5,13 @@
 @import "./modals.css";
 @import "./normalize.css";
 
+@font-face {
+  font-family: "Crimson";
+  src: url(../font/Crimson-Roman.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
 body {
   margin: 0 auto;
   padding: 0;

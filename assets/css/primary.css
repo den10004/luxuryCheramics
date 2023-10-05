@@ -28,8 +28,8 @@
 }
 
 .primary__text {
-  width: 770px;
-  font-family: "Crimson Text", sans-serif;
+  width: 755px;
+  font-family: "Crimson", sans-serif;
   letter-spacing: 0em;
   text-align: left;
   color: #3c2c26;
@@ -44,7 +44,7 @@
 }
 
 .primary__text > span {
-  font-family: "Crimson Text", sans-serif;
+  font-family: "Crimson", sans-serif;
   font-size: 35px;
   font-weight: 400;
   line-height: 46px;
@@ -72,7 +72,7 @@
 }
 
 .primary__text > h1 {
-  font-family: "Crimson Text", sans-serif;
+  font-family: "Crimson", sans-serif;
   font-size: 60px;
   font-weight: 400;
   line-height: 72px;
@@ -170,7 +170,7 @@
   width: 211px;
   height: 49px;
   border-radius: 50px;
-  font-family: "Crimson Text", sans-serif;
+  font-family: "Crimson", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -181,6 +181,33 @@
 
 .block__confirmation {
   display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .block__confirmation {
+    margin-top: 20px;
+  }
+}
+
+.block__confirmation > svg {
+  margin-right: 10px;
+}
+@media screen and (max-width: 1280px) {
+  .block__confirmation > svg > path {
+    fill: #ffffff;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .block__confirmation > svg > path {
+    fill: #333333;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .block__confirmation > svg > path {
+    fill: #ffffff;
+  }
 }
 
 .block__confirmation > p {
@@ -199,19 +226,15 @@
   }
 }
 
-.block__confirmation > svg {
-  margin-right: 10px;
-}
-
-@media screen and (max-width: 1280px) {
-  .block__confirmation > svg > path {
-    fill: #ffffff;
+@media screen and (max-width: 800px) {
+  .block__confirmation > p {
+    color: #333333;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .block__confirmation {
-    margin-top: 20px;
+@media screen and (max-width: 758px) {
+  .block__confirmation > p {
+    color: #ffffff;
   }
 }
 
@@ -221,6 +244,18 @@
 }
 
 @media screen and (max-width: 1280px) {
+  .block__confirmation > p > a {
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .block__confirmation > p > a {
+    color: #333333;
+  }
+}
+
+@media screen and (max-width: 758px) {
   .block__confirmation > p > a {
     color: #ffffff;
   }
