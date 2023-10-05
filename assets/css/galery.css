@@ -91,7 +91,6 @@
   width: 433px;
   height: 624px;
   opacity: 0;
-  box-shadow: 30px 20px 40px 0px rgba(119, 96, 83, 0.25);
 }
 
 @media screen and (max-width: 768px) {
