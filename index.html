@@ -20,8 +20,13 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
+    <!--
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css"
+    />-->
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
@@ -358,12 +363,12 @@
       </svg>
     </div>
 
-    <section class="wrapper galery-padding">
+    <section class="wrapper2">
       <section class="galery">
         <div class="galery__headline">
           <h2>
-            Галерея объектов с применением архитектурной керамики Luxury
-            Ceramics
+            Галерея объектов <br />
+            с применением архитектурной керамики Luxury Ceramics
           </h2>
 
           <div class="paginationsBlock">
@@ -393,7 +398,7 @@
                 </defs>
               </svg>
             </button>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination paginationBock"></div>
             <button class="swiper-button-nextt btn-slider">
               <svg
                 width="42"
@@ -423,16 +428,45 @@
           </div>
         </div>
 
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide slideCard">
-              <img src="./assets/images/slider.png" alt="slider-image" />
-            </div>
-            <div class="swiper-slide slideCard">
-              <img src="./assets/images/slider.png" alt="slider-image" />
-            </div>
-            <div class="swiper-slide slideCard">
-              <img src="./assets/images/slider.png" alt="slider-image" />
+        <div class="slider-container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide sliderCard">
+                <img
+                  src="./assets/images/sliderOriginal.svg"
+                  alt="slider-image"
+                />
+              </div>
+              <div class="swiper-slide sliderCard">
+                <img
+                  src="./assets/images/sliderOriginal.svg"
+                  alt="slider-image"
+                />
+              </div>
+              <div class="swiper-slide sliderCard">
+                <img
+                  src="./assets/images/sliderOriginal.svg"
+                  alt="slider-image"
+                />
+              </div>
+              <div class="swiper-slide sliderCard">
+                <img
+                  src="./assets/images/sliderOriginal.svg"
+                  alt="slider-image"
+                />
+              </div>
+              <div class="swiper-slide sliderCard">
+                <img
+                  src="./assets/images/sliderOriginal.svg"
+                  alt="slider-image"
+                />
+              </div>
+              <div class="swiper-slide sliderCard">
+                <img
+                  src="./assets/images/sliderOriginal.svg"
+                  alt="slider-image"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -441,7 +475,10 @@
 
     <section class="section-height"></section>
   </body>
-  <script src="./assets/js/slider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!--
+    
+  <script src="./assets/js/slider.js"></script>-->
   <script src="./assets/js/script.js"></script>
   <script src="./assets/js/index.js"></script>
 </html>

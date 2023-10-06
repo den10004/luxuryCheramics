@@ -46,6 +46,12 @@ ul li {
   padding: 0 10px 0 10px;
 }
 
+.wrapper2 {
+  max-width: 1544px;
+  margin: 0 auto;
+  padding: 0 10px 0 10px;
+}
+
 .line {
   position: absolute;
   top: 1440px;

@@ -1,17 +1,16 @@
-var swiper = new Swiper(".swiper-container", {
+var swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
   grabCursor: true,
+  loop: false,
   centeredSlides: true,
-  slidesPerView: "auto",
-  initialSlide: 0,
-  loop: true,
+  slidesPerView: 3,
   coverflowEffect: {
     rotate: 0,
     stretch: 0,
-    depth: 50,
-    modifier: 10,
+    depth: 300,
+    modifier: 1,
+    slideShadows: false,
     initialSlide: 0,
-    slideShadows: true,
   },
   pagination: {
     el: ".swiper-pagination",
@@ -23,21 +22,78 @@ var swiper = new Swiper(".swiper-container", {
   },
   breakpoints: {
     320: {
+      loop: true,
+      slidesPerView: "auto",
       coverflowEffect: {
-        stretch: 7,
-        depth: 40,
+        stretch: 100,
+        depth: 220,
       },
     },
-    425: {
+
+    430: {
+      loop: true,
+      slidesPerView: "auto",
       coverflowEffect: {
-        stretch: 7,
-        depth: 40,
+        stretch: 150,
+        depth: 220,
       },
     },
-    1150: {
+
+    600: {
+      loop: true,
+      slidesPerView: "auto",
       coverflowEffect: {
-        stretch: 7,
-        depth: 40,
+        stretch: 200,
+        depth: 220,
+      },
+    },
+    830: {
+      loop: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        stretch: 350,
+        depth: 220,
+      },
+    },
+    1000: {
+      loop: true,
+      slidesPerView: "auto",
+      centeredSlides: false,
+      coverflowEffect: {
+        stretch: 450,
+        depth: 320,
+      },
+    },
+    1001: {
+      loop: true,
+      slidesPerView: "auto",
+      centeredSlides: false,
+      coverflowEffect: {
+        stretch: 650,
+        depth: 320,
+      },
+    },
+    1024: {
+      slidesPerView: "auto",
+      centeredSlides: false,
+      coverflowEffect: {
+        stretch: 740,
+        depth: 200,
+      },
+    },
+    1025: {
+      slidesPerView: 2.5,
+      coverflowEffect: {
+        stretch: 140,
+        depth: 200,
+      },
+    },
+
+    1400: {
+      slidesPerView: 2.5,
+      coverflowEffect: {
+        stretch: 150,
+        depth: 200,
       },
     },
   },
