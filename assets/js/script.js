@@ -1,16 +1,14 @@
 var swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
   grabCursor: true,
-  loop: false,
+  loop: true,
   centeredSlides: true,
   slidesPerView: 3,
   coverflowEffect: {
     rotate: 0,
-    stretch: 0,
-    depth: 300,
-    modifier: 1,
     slideShadows: false,
-    initialSlide: 0,
+    stretch: 0,
+    depth: 380,
   },
   pagination: {
     el: ".swiper-pagination",
@@ -22,78 +20,98 @@ var swiper = new Swiper(".mySwiper", {
   },
   breakpoints: {
     320: {
-      loop: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        stretch: 100,
-        depth: 220,
-      },
-    },
-
-    430: {
-      loop: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        stretch: 150,
-        depth: 220,
-      },
-    },
-
-    600: {
-      loop: true,
+      centeredSlides: false,
       slidesPerView: "auto",
       coverflowEffect: {
         stretch: 200,
-        depth: 220,
-      },
-    },
-    830: {
-      loop: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        stretch: 350,
-        depth: 220,
-      },
-    },
-    1000: {
-      loop: true,
-      slidesPerView: "auto",
-      centeredSlides: false,
-      coverflowEffect: {
-        stretch: 450,
         depth: 320,
-      },
-    },
-    1001: {
-      loop: true,
-      slidesPerView: "auto",
-      centeredSlides: false,
-      coverflowEffect: {
-        stretch: 650,
-        depth: 320,
-      },
-    },
-    1024: {
-      slidesPerView: "auto",
-      centeredSlides: false,
-      coverflowEffect: {
-        stretch: 740,
-        depth: 200,
-      },
-    },
-    1025: {
-      slidesPerView: 2.5,
-      coverflowEffect: {
-        stretch: 140,
-        depth: 200,
       },
     },
 
-    1400: {
-      slidesPerView: 2.5,
+    500: {
+      slidesPerView: "auto",
       coverflowEffect: {
-        stretch: 150,
-        depth: 200,
+        stretch: 300,
+        depth: 400,
+      },
+    },
+
+    570: {
+      slidesPerView: "auto",
+      coverflowEffect: {
+        stretch: 350,
+      },
+    },
+    620: {
+      slidesPerView: "auto",
+      coverflowEffect: {
+        stretch: 400,
+      },
+    },
+    670: {
+      slidesPerView: "auto",
+      coverflowEffect: {
+        stretch: 450,
+      },
+    },
+
+    715: {
+      slidesPerView: "auto",
+      coverflowEffect: {
+        stretch: 500,
+      },
+    },
+    760: {
+      slidesPerView: "auto",
+      coverflowEffect: {
+        stretch: 520,
+      },
+    },
+    838: {
+      slidesPerView: "auto",
+      coverflowEffect: {
+        stretch: 550,
+      },
+    },
+    886: {
+      slidesPerView: "auto",
+      coverflowEffect: {
+        stretch: 600,
+      },
+    },
+
+    928: {
+      slidesPerView: "auto",
+      coverflowEffect: {
+        stretch: 650,
+      },
+    },
+
+    928: {
+      slidesPerView: "auto",
+      coverflowEffect: {
+        stretch: 700,
+      },
+    },
+    1024: {
+      slidesPerView: 3,
+      coverflowEffect: {
+        stretch: 0,
+        depth: 380,
+      },
+    },
+
+    1250: {
+      coverflowEffect: {
+        stretch: 100,
+        depth: 250,
+      },
+    },
+
+    1920: {
+      coverflowEffect: {
+        stretch: 0,
+        depth: 380,
       },
     },
   },
