@@ -8,6 +8,32 @@
   height: auto;
   padding: 20px 0 10px 10px;
   box-sizing: border-box;
+  -webkit-animation-name: burger;
+  -webkit-animation-duration: 0.4s;
+  animation-name: burger;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes burger {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes burger {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
 }
 
 .modal-hidden {
@@ -38,13 +64,13 @@
   left: 0;
   max-width: 520px;
   z-index: 1;
-  -webkit-animation-name: animatetop;
+  -webkit-animation-name: modal;
   -webkit-animation-duration: 0.4s;
-  animation-name: animatetop;
+  animation-name: modal;
   animation-duration: 0.4s;
 }
 
-@-webkit-keyframes animatetop {
+@-webkit-keyframes modal {
   from {
     top: -300px;
     opacity: 0;
@@ -55,7 +81,7 @@
   }
 }
 
-@keyframes animatetop {
+@keyframes modal {
   from {
     top: -300px;
     opacity: 0;
