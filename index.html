@@ -22,11 +22,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
-    <!--
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css"
-    />-->
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
@@ -89,7 +84,7 @@
           <div class="block__call">
             <button id="call-button">Заказать звонок</button>
             <?xml version="1.0" encoding="utf-8"?>
-            <button class="burger-button">
+            <button aria-label="burger-menu" class="burger-button">
               <svg
                 width="40px"
                 height="40px"
@@ -124,7 +119,7 @@
       <!--бургер-меню-->
       <div class="burder modal-hidden">
         <div class="burder__wrapper">
-          <button class="burger-close">
+          <button class="burger-close" aria-label="modal-close">
             <?xml version="1.0" encoding="utf-8"?>
             <svg
               width="40px"
@@ -169,7 +164,7 @@
 
       <div class="order modal-hidden">
         <div class="order-wraper">
-          <button class="order-close">
+          <button class="order-close" aria-label="order-close">
             <svg
               width="101"
               height="100"
@@ -226,7 +221,7 @@
 
             <div class="text__block">
               <a href="#">
-                <button>Смотреть каталог</button>
+                <button aria-label="show-catalog">Смотреть каталог</button>
               </a>
 
               <div class="block__confirmation">
@@ -288,7 +283,7 @@
             />
           </svg>
           <div class="card-content">
-            <img src="./assets/images/hand.png" alt="card-image" />
+            <img src="./assets/images/hand.webp" alt="card-image" />
             <p>
               Изготовление эксклюзивных деталей вручную, и стандартных позиций
               на станках
@@ -306,7 +301,7 @@
             />
           </svg>
           <div class="card-content">
-            <img src="./assets/images/hand.png" alt="card-image" />
+            <img src="./assets/images/hand.webp" alt="card-image" />
             <p>
               Разработка деталировочных чертежей облицовки фасада из керамики
             </p>
@@ -323,7 +318,7 @@
             />
           </svg>
           <div class="card-content">
-            <img src="./assets/images/hand.png" alt="card-image" />
+            <img src="./assets/images/hand.webp" alt="card-image" />
             <p>Гибкая ценовая политика</p>
           </div>
         </div>
@@ -338,7 +333,7 @@
             />
           </svg>
           <div class="card-content">
-            <img src="./assets/images/hand.png" alt="card-image" />
+            <img src="./assets/images/hand.webp" alt="card-image" />
             <p>
               Монтаж архитектурной керамики на объекте с неукоснительным
               соблюдением технологий
@@ -476,9 +471,6 @@
     <section class="section-height"></section>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <!--
-    
-  <script src="./assets/js/slider.js"></script>-->
   <script src="./assets/js/script.js"></script>
   <script src="./assets/js/index.js"></script>
 </html>

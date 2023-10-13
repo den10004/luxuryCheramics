@@ -5,7 +5,7 @@
 
 .primary {
   margin-top: 40px;
-  background-image: url(../images/house.png);
+  background-image: url(../images/house.webp);
   background-repeat: no-repeat;
   background-position: right;
   min-height: 781px;
@@ -27,7 +27,8 @@
 }
 
 .primary__text {
-  width: 755px;
+  /*width: 755px;*/
+  width: 665px;
   font-family: "Crimson", sans-serif;
   letter-spacing: 0em;
   text-align: left;
