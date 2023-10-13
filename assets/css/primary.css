@@ -56,9 +56,9 @@
   color: #3c2c26;
   padding-top: 80px;
   -webkit-animation-name: text;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 0.5s;
   animation-name: text;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 
 @-webkit-keyframes text {
