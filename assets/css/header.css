@@ -62,13 +62,13 @@
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
-  color: #1e1e1f;
+  color: var(--color-logo);
   margin-top: 2px;
 }
 
 .block__main {
   display: flex;
-  color: #333333;
+  color: var(--color-header);
   width: calc(100% - 484px);
   justify-content: space-between;
   align-items: end;
@@ -90,7 +90,7 @@
 
 .main__email {
   font-size: 14px;
-  color: #333333;
+  color: var(--color-header);
   font-family: "Roboto", sans-serif;
   line-height: 18px;
   padding-left: 52px;
@@ -112,11 +112,15 @@
 }
 
 .main__email > a {
-  color: #776053;
+  color: var(--color-link);
+}
+
+.main__email > a:hover {
+  color: var(--color-131);
 }
 
 .styleTelBlock {
-  color: #333333;
+  color: var(--color-header);
   font-family: "Roboto", sans-serif;
   line-height: 18px;
   letter-spacing: 0em;
@@ -125,7 +129,11 @@
 .styleTelBlock > a {
   font-size: 14px;
   font-weight: 700;
-  color: #333333;
+  color: var(--color-header);
+}
+
+.styleTelBlock > a:hover {
+  color: var(--color-131);
 }
 
 .styleTelBlock > span {
@@ -157,17 +165,22 @@
 }
 
 #call-button {
-  border: 1px solid #3c2c26;
+  border: 1px solid var(--color-text);
   font-family: "Crimson Text", sans-serif;
   font-size: 17px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  color: #000000;
+  color: var(--color-text);
   margin-bottom: 10px;
   border-radius: 50px;
   width: 194px;
   height: 49px;
+}
+
+#call-button:hover {
+  color: var(--color-131);
+  border: 1px solid var(--color-131);
 }
 
 @media screen and (max-width: 550px) {

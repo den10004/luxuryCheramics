@@ -50,7 +50,7 @@
   line-height: 52px;
   letter-spacing: 0em;
   text-align: right;
-  color: rgba(60, 44, 38, 1);
+  color: var(--color-black);
   padding-left: 20px;
 }
 
@@ -165,14 +165,14 @@
   font-family: "Crimson", serif;
   font-weight: 400;
   font-size: 56px !important;
-  color: rgba(60, 44, 38, 1) !important;
+  color: var(--color-black) !important;
 }
 
 .swiper-pagination-total {
   font-family: "Crimson", serif;
   font-weight: 400;
   font-size: 20px !important;
-  color: rgba(119, 96, 83, 1) !important;
+  color: var(--color-gray) !important;
 }
 
 @media screen and (max-width: 1440px) {

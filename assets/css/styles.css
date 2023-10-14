@@ -12,6 +12,21 @@
   font-weight: 400;
 }
 
+:root {
+  --color-black: rgba(60, 44, 38, 1);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-gray: rgba(119, 96, 83, 1);
+  --color-blackmodal: rgba(0, 0, 0, 1);
+  --color-link: #776053;
+  --color-logo: #1e1e1f;
+  --color-header: #333333;
+  --color-callbut: #000000;
+  --color-bisque: bisque;
+  --color-51: rgba(51, 51, 51, 1);
+  --color-131: rgba(133, 133, 133, 1);
+  --color-text: #3c2c26;
+}
+
 body {
   margin: 0 auto;
   padding: 0;
