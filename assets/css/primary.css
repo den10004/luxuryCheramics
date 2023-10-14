@@ -296,10 +296,34 @@
   }
 }
 
-.block__confirmation > svg {
-  margin-right: 10px;
+.block__confirmation > div {
   width: 33px;
   height: 33px;
+  margin-right: 10px;
+}
+
+.block__confirmation > div::before {
+  content: " ";
+  background: url(../images/info1.svg);
+  background-repeat: no-repeat;
+  display: block;
+  height: 33px;
+  width: 33px;
+}
+
+@media screen and (max-width: 680px) {
+  .block__confirmation > div {
+    width: 25px;
+    height: 25px;
+  }
+  .block__confirmation > div::before {
+    content: " ";
+    background: url(../images/info-min.svg);
+    background-repeat: no-repeat;
+    display: block;
+    height: 25px;
+    width: 25px;
+  }
 }
 
 .block__confirmation > p {
@@ -334,7 +358,7 @@
   width: 442px;
   height: 125px;
   z-index: 5;
-  background-color: var(--color-white);
+  background-color: var(--color-primary);
   border-top-left-radius: 70px;
 }
 
@@ -356,13 +380,13 @@
 
 @media screen and (max-width: 1650px) {
   .primary__info {
-    bottom: 70px;
+    bottom: 20px;
   }
 }
 
 @media screen and (max-width: 1300px) {
   .primary__info {
-    bottom: 65px;
+    bottom: 30px;
     width: 300px;
     height: 80px;
   }
@@ -397,7 +421,6 @@
 .info__block {
   margin-top: 40px;
   margin-left: 30px;
-  padding-right: 150px;
   display: flex;
 }
 
@@ -405,7 +428,6 @@
   .info__block {
     margin-top: 20px;
     margin-left: 40px;
-    padding-right: 0px;
     align-items: center;
   }
 }
@@ -443,12 +465,56 @@
   text-align: left;
   color: var(--color-callbut);
   position: relative;
+  display: flex;
+  align-items: center;
+  width: 170px;
+}
+
+.info__block > div {
+  height: 39px;
+  width: 39px;
+  margin-right: 10px;
+  align-items: center;
+}
+@media screen and (max-width: 680px) {
+  .info__block > div {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+.info__block > div::before {
+  content: " ";
+  background: url(../images/info.svg);
+  background-repeat: no-repeat;
+  display: block;
+  height: 39px;
+  width: 39px;
+}
+
+@media screen and (max-width: 680px) {
+  .info__block > div::before {
+    content: " ";
+    background: url(../images/info-min.svg);
+    background-repeat: no-repeat;
+    display: block;
+    height: 28px;
+    width: 28px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .info__block > p {
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
 
 @media screen and (max-width: 680px) {
   .info__block > p {
     font-size: 14px;
     line-height: 14px;
+    width: 100%;
   }
 }
 
