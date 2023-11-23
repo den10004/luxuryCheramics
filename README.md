@@ -10,4 +10,4 @@
 
 ### Добавлены эффекты hover на кнопки и ссылки блока header
 
-## [Деплой](https://den10004.github.io/luxuryCheramics/).
+## [Ссылка на проект](https://den10004.github.io/luxuryCheramics/).
