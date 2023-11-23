@@ -12,4 +12,4 @@
 
 https://github.com/den10004/luxuryсheramics.git
 
-## [Деплой на Vercel](https://luxury-cheramics.vercel.app/).
+## [Деплой](https://den10004.github.io/luxuryCheramics/).
